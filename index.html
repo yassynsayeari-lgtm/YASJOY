@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1976D2">
+<title>YASJOY</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="logo">★</div><div><h1>YASJOY</h1><p>اجمع النقاط من العروض</p></div></header>
+<main>
+  <section class="balance">
+    <span>رصيدك الحالي</span><strong id="points">—</strong><small>نقطة</small>
+  </section>
+  <section class="notice" id="status">جارٍ إنشاء معرّف تلقائي آمن…</section>
+  <section class="grid">
+    <button class="tile" id="offers"><span>🎁</span><b>العروض</b><small>جدار العروض</small></button>
+    <button class="tile" id="withdraw"><span>👛</span><b>طلب السحب</b><small>إرسال طلب للمراجعة</small></button>
+  </section>
+  <section class="panel">
+    <h2>معرّف المستخدم</h2><code id="uid">جارٍ التحميل…</code>
+    <p>لا تحتاج إلى بريد إلكتروني أو كلمة مرور. احتفظ بمعرّفك في مكان آمن إذا أضفنا لاحقًا خيار استرداد الحساب.</p>
+  </section>
+  <section class="panel">
+    <h2>طلبات السحب</h2><p id="withdrawStatus">لا توجد طلبات في هذه الجلسة.</p>
+    <p class="muted">السحب غير مفعّل في النسخة الأولية، ولا يتم تحويل أموال حقيقية.</p>
+  </section>
+</main>
+<footer>YASJOY • نسخة أولية قيد التطوير</footer>
+<script type="module" src="app.js"></script>
+</body></html>
